@@ -60,3 +60,15 @@
         flex-basis: auto;
     }
 }
+@media (max-width: 992px) {
+  .team-card {
+    flex: 1 1 calc(50% - 30px);
+    max-width: calc(50% - 30px);
+  }
+}
+@media (max-width: 576px) {
+  .team-card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
